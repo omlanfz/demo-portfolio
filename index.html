@@ -1,17 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Demo Portfolio</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles/portfolio.css">
 </head>
-<body>
-  <header>
-    <nav></nav>
+
+<body class="open-sans-normal">
+  <header id="header" class="bg-secondary">
+    <nav>
+      <h2 class="nav-title">Ma<span class="text-primary">r</span>y</h2>
+      <ul>
+        <li>
+          <a class="text-secondary" href="">Portfolio</a>
+        </li>
+        <li>
+          <a class="text-secondary" href="">Blog</a>
+        </li>
+        <li>
+          <a href=""><button class="btn-primary">Hire Me</button></a>
+        </li>
+      </ul>
+    </nav>
+    <div id="banner">
+      <div class="banner-content">
+        <h2 class="banner-greetings">Hi, I am</h2>
+        <h1 class="banner-title">Mary Hardy</h1>
+        <p class="description">Shot what able cold new see hold.Friendly as an betrayed formerly he. Morning because as
+          to society behaved moments.</p>
+        <div class="banner-btn">
+          <button class="btn-primary download-btn">
+            Download CV
+          </button>
+          <button class="btn-primary contact-btn">
+            Contact
+          </button>
+        </div>
+      </div>
+      <img class="banner-img" src="images/hardy.png" alt="Hardy">
+    </div>
   </header>
   <main>
+    <section id="about" class="bg-secondary">
+      <div class="content">
+        <h2 class="section-title">About Me</h2>
+        <p class="description text-center">I, m a designer & developer with a passion for web design. I enjoy developing simple, clean and slick websites that provide real value to the end user. Thousands of clients have procured exceptional resulfs while working with me. Delivering work within time and budget which meets clients requirements in our mata.</p>
+        <div class="info-container">
+          <div>
+            <p class="description info text-center">Name: <br>
+              <span class="value">Mary Hardy</span> </p>
+          </div>
+          <div>
+            <p class="description info text-center">Email: <br>
+              <span class="value">info@gmail.com</span></p>
+          </div>
+          <div>
+            <p class="description info text-center">Date of birth: <br>
+              <span class="value">11 November 1987</span></p>
+          </div>
+          <div>
+            <p class="description info text-center">From: <br>
+              <span class="value">Los Angeles, USA</span></p>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <section id="skill">
+      <!-- <div class="content"> -->
+        <h2 class="section-title">What I do</h2>
+        <p class="description text-center">I have more than 10 years experience building software for clients all over the world. Below is a quick overview of my main technical skill sets and technologies i use. Want to find out more about my experience? Check out my online resume and project portfolio.</p>
+        <div class="software-container">
+          <div class="software">
+            <img class="software-icon" src="images/icons/js.png" alt="js icon">
+            <h3 class="software-name section-title">
+              Vanilla JavaScript
+            </h3>
+            <p class="software-description description">
+              List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.
+            </p>
+          </div>
+          <div class="software">
+            <img class="software-icon" src="images/icons/react.png" alt="react icon">
+            <h3 class="software-name section-title">
+              React
+            </h3>
+            <p class="software-description description">
+              List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.
+            </p>
+          </div>
+          <div class="software">
+            <img class="software-icon" src="images/icons/nodejs.png" alt="js icon">
+            <h3 class="software-name section-title">
+              Node.js
+            </h3>
+            <p class="software-description description">
+              List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.
+            </p>
+          </div>
+          <div class="software">
+            <img class="software-icon" src="images/icons/mongo.png" alt="js icon">
+            <h3 class="software-name section-title">
+              MongoDB
+            </h3>
+            <p class="software-description description">
+              List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.
+            </p>
+          </div>
+          
+        </div>
+      <!-- </div> -->
+    </section>
   </main>
   <footer></footer>
 </body>
+
 </html>
