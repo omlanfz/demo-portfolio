@@ -40,6 +40,7 @@ main {
   background-repeat: no-repeat;
 }
 
+
 /* Nav bar style */
 
 nav {
@@ -157,7 +158,7 @@ nav li a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 123px auto 130px;
+  margin: 123px 0px 130px;
   border-radius: 10px;
 }
 
@@ -348,4 +349,115 @@ textarea {
 
 .contact-msg {
   max-width: 562px;
+}
+
+.hide {
+  display: none;
+}
+
+/* Media Query for Mobile Devices */
+@media screen and (max-width: 576px) {
+  main {
+    margin: 0;
+  }
+
+  .btn-primary {
+    padding: 18px;
+  }
+  nav {
+    margin: 0;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+  }
+  nav ul {
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  #header {
+    background-image: url("../images/header_bg.png");
+    background-position: bottom right;
+    background-repeat: no-repeat;
+  }
+
+  #banner {
+    flex-direction: column;
+    margin: 0;
+  }
+  .banner-content {
+    margin: 30px 0px;
+    padding: 20px;
+  }
+  .btn-container {
+    justify-content: center;
+  }
+  .banner-img {
+    width: 100%;
+    height: 100%;
+  }
+
+  #about {
+    background-color: #fff;
+  }
+
+  #about .content {
+    max-width: 90vw;
+    padding: 30px 20px;
+    margin: 20px 20px;
+    background-color: #FFF8F3;
+    border-radius: 30px;
+    border: none;
+  }
+
+  #about .info-container {
+    flex-direction: column;
+  }
+
+  #skill .description {
+    margin: 30px 15px 50px;
+  }
+
+  #skill .software-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #skill .software {
+    padding: 30px;
+    max-width: 70%;
+    border-radius: 15px;
+  }
+
+  #resume .section-title {
+    padding: 0 65px;
+  }
+
+  #resume .content {
+    flex-direction: column;
+    gap: 70px;
+    margin: 40px 0;
+  }
+
+  #resume .education,
+  .experience {
+    align-items: center;
+  }
+
+  #resume .degree {
+    text-align: center;
+    padding: 10px 20px;
+    margin: 10px 0px;
+  }
+
+  #footer {
+    flex-direction: column;
+    padding: 50px 30px 80px;
+  }
+
+  .textbox,
+  textarea {
+    width: calc(100% - 30px);
+  }
 }
